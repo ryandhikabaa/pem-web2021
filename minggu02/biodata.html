@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Detail</title>
+</head>
+
+<body>
+    <div class="container">
+        <div calss="profile">
+            <table class="table-profile">
+                <tr>
+                    <td></td>
+                    <td>
+                        <h2>Student Detail</h2>
+                        <hr>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="profile-photo">
+                        <div>
+                            <img src="assets/image/rba-profile.jpg" alt="Profile Photo">
+                        </div>
+                    </td>
+                    <!-- Text td element -->
+                    <td>
+                        <div class="detail-profile">
+                            <table>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>:</td>
+                                    <td>RYANDHIKA BINTANG ABIYYI</td>
+                                </tr>
+                                <tr>
+                                    <td>NIM</td>
+                                    <td>:</td>
+                                    <td>A11.2021.13498</td>
+                                </tr>
+                                <tr>
+                                    <td>Academic Advisor</td>
+                                    <td>:</td>
+                                    <td>EGIA ROSI SUBHIYAKTO, M.Kom</td>
+                                </tr>
+                                <tr>
+                                    <td>Status</td>
+                                    <td>:</td>
+                                    <td>Aktif</td>
+                                </tr>
+                                <tr>
+                                    <td>Phone Number</td>
+                                    <td>:</td>
+                                    <td>08574___</td>
+                                </tr>
+                                <tr>
+                                    <td>Address</td>
+                                    <td>:</td>
+                                    <td>Ds Loram Wetan rt0___</td>
+                                </tr>
+                                <tr>
+                                    <td>E-mail</td>
+                                    <td>:</td>
+                                    <td>111202113498[a]mhs.dinus.ac.id
+                                        <br>
+                                        ryandhikabintang0[a]gmail.com
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Religion</td>
+                                    <td>:</td>
+                                    <td>Islam</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="krs-schedule">
+            <div class="title">KRS Schedule</div>
+    
+            <div class="krs-data">
+                <table border="1" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>No</th>
+                            <th>Courses Code</th>
+                            <th>Group</th>
+                            <th>Courses</th>
+                            <th>SKS</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>A11.54101</td>
+                            <td>A11.4105</td>
+                            <td>KALKULUS 1 </td>
+                            <td>4</td>
+                            <td>B</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>A11.54105</td>
+                            <td>A11.4105</td>
+                            <td>DASAR PEMROGRAMAN</td>
+                            <td>4</td>
+                            <td>B</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>A11.54302</td>
+                            <td>A11.4105</td>
+                            <td>MATEMATIKA DISKRIT</td>
+                            <td>3</td>
+                            <td>B</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>A11.54314</td>
+                            <td>A11.4105</td>
+                            <td>PEMROGRAMAN BERBASIS WEB</td>
+                            <td>2</td>
+                            <td>B</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>A11.54403</td>
+                            <td>A11.4105</td>
+                            <td>ORGANISASI DAN ARSITEKTUR KOMPUTER</td>
+                            <td>3</td>
+                            <td>B</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>AF201704</td>
+                            <td>A11.4105</td>
+                            <td>DASAR DASAR KOMPUTASI </td>
+                            <td>2</td>
+                            <td>B</td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>U201704</td>
+                            <td>A11.4MATR</td>
+                            <td>PENGANTAR TEKNOLOGI INFORMASI</td>
+                            <td>2</td>
+                            <td>B</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+    }
+
+    body {
+        background-color: #f0f0ef;
+    }
+
+    h2 {
+        margin: 30px 0;
+        text-align: center;
+        color: darkblue;
+    }
+
+    .container {
+        width: 80%;
+        margin: 0 auto;
+        padding: 0 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .profile-photo {
+        vertical-align: top;
+        padding-top: 10px;
+        width: 170px;
+    }
+
+    .profile-photo img {
+        width: 100%;
+    }
+
+    .table-profile hr {
+        border-top: 3px dashed red;
+    }
+
+    .table-profile img {
+        border: 5px solid rgb(187, 187, 187);
+    }
+
+    .detail-profile {
+        vertical-align: top;
+    }
+
+    .detail-profile table {
+        border-collapse: collapse;
+    }
+
+    .detail-profile table tr {
+        border-bottom: 1px solid #ccc;
+    }
+
+    .detail-profile table tr td {
+        padding: 10px;
+    }
+
+    .krs-schedule {
+        margin: 30px 0;
+        padding: 20px 30px;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 4px 2px 10px 0.3px #c2c1c1;
+    }
+
+    .title{
+        font-weight: bold;
+        font-size: large;
+    }
+
+    .krs-data table {
+        margin: 8px 0;
+        border-collapse: collapse;
+        color: #2b2b2b;
+    }
+
+    .krs-data table thead tr {
+        color: white;
+        background-color: #20485A;
+    }
+
+    .krs-data table th, .krs-data table td {
+        padding: 10px;
+    }
+
+    .krs-data table td {
+        border: 1px solid #9d9d9d;
+    }
+</style>
