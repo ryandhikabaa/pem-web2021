@@ -155,6 +155,33 @@
                 </table>
             </div>
         </div>
+
+        <div class="media-video">
+            <h3>Video Local - Promosi Sistem Booking</h3>
+            <video class="video-display" controls>
+                <source src="assets/video/promosi-rental-service.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <div class="media-music">
+            <h3>Enjoy Music - Imagine Dragon Believer</h3>
+            <audio controls>
+                <source src="assets/music/imagine-dragons-believer.mp3" type="audio/mp3">
+            </audio>
+        </div>
+
+        <div class="media-youtube">
+            <h3>Video Youtube - Dari Admisi Udinus Untuk Calon Dinusian</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/bRSqSccAyIg"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+
+        <div class="media-web">
+            <h3>Web Portofolio</h3>
+            <object class="web-display" data="https://ryandhikaa.github.io/"></object>
+        </div>
     </div>
 </body>
 
@@ -170,21 +197,32 @@
 
     body {
         background-color: #f0f0ef;
+        background-image: url(assets/image/background-main.jpeg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
     }
 
     h2 {
         margin: 30px 0;
         text-align: center;
-        color: darkblue;
+        color: blue;
+    }
+
+    h3 {
+        margin: 30px 0 15px 0;
+        text-align: center;
+        color: blue;
     }
 
     .container {
-        width: 80%;
+        width: 50%;
         margin: 0 auto;
         padding: 0 50px;
         display: flex;
         flex-direction: column;
         align-items: center;
+        background-color: rgba(255, 255, 255, 0.801);
     }
 
     .profile-photo {
@@ -252,5 +290,16 @@
 
     .krs-data table td {
         border: 1px solid #9d9d9d;
+    }
+
+    .video-display {
+        width: 550px;
+    }
+
+    .web-display {
+        display: inline-block;
+        width: 820px;
+        height: 700px;
+        margin-bottom: 3%;
     }
 </style>
