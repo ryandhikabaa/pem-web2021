@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>HTML Layout</title>
+    <title>HTML Summary</title>
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <meta charset="utf-8">
     <meta name="viewpoint" content="width=device-width, initial-scale=1">
@@ -15,8 +15,8 @@
         <ul>
             <li><a class="udinus" href="https://dinus.ac.id/"><img class="logo" src="assets/image/udinus.jpg"></a>
             </li>
-            <li><a class="active text beranda" href="layout.html">HTML Layout</a></li>
-            <li><a class="text" href="summary.html">Summary HTML</a></li>
+            <li><a class="text beranda" href="layout.html">HTML Layout</a></li>
+            <li><a class="active text" href="summary.html">Summary HTML</a></li>
             <li><a class="text" href="time.html">HTML Time</a></li>
             <li><a class="text" href="audio.html">HTML Audio</a></li>
             <li><a class="text" href="audio2.html">HTML Audio2</a></li>
@@ -32,28 +32,28 @@
     <!--Start Konten-->
 
     <div class="container">
-        <h1>Tutorial Semantik Element untuk pemula</h1>
-        <p class="text-p">Di awal-awal hadirnya HTML dulu, elemen semantik belum ada.
+        <article>
+            <h1>Laptop Terbaik untuk programer</h1>
 
-            Orang-orang membuat layout dengan menggunakan tag yang salah.
-            
-            Ada yang membuatnya dengan tag tabel dan ada juga dengan tag div.
-            
-            Ini sebenarnya tidak sepenuhnya salah, karena membuat layout dengan kedua tag itu benar-benar bisa.
-            
-            Tapi, ini bukanlah cara yang baik dan akan membuat kode HTML kita sulit terbaca.
-            
-            Karena itu.. hadirlah elemen semantik sebagai solusi.
-            
-            Elemen semantik mulai ditambahkan pada HTML 5.
-            
-            Elemen semantik adalah elemen-elemen yang menyatakan makna atau tujuan dari elemen itu sendiri. 1
-            
-            Misalnya tag footer, tag ini digunakan untuk membuat elemen footer atau bagian kaki dari web.
-            
-            Jangan gunakan tag ini di bagian paling atas, karena maknanya sudah jelas untuk footer.
-            
-            Jadi tidak akan ada lagi yang namanya penyalahgunaan tag. Karena setiap tag sudah punya tujuan masing-masing.</p>
+            <p class="text-p">Kalau kamu sekarang sedang mencari laptop untuk belajar programming atau pekerjaan, kamu
+                harus pandai
+                dalam memilih laptop yang sesuai kebutuhan masing-masing karena kalau kita salah pilih mungkin
+                kurang puas rasanya bekerja dengan laptop tersebut. Apalagi kamu adalah seorang programmer yang
+                membutuhkan RAM setidaknya 4 atau 8 GB. Jika kamu menjalankan kode yang rumit, kamu akan membutuhkan
+                salah satu hard drive terbaik, bahkan mungkin salah satu SSD terbaik. Karena SSD akan menghemat
+                waktu kamu ketika menyimpan atau membuka file dan aplikasi.
+            </p>
+            <details>
+                <summary>Lihat Spesifikasi</summary>
+                Contoh Spesifikasi : <br>
+                Layar 13,3 inci Full HD LED<br>
+                Intel Core i7-7500<br>
+                RAM 8 GB<br>
+                HDD 1 TB + SSD 128 GB<br>
+                NVIDIA GeForce GT940<br>
+                Windows 10<br>
+            </details>
+        </article>
     </div>
 
     <!--End Konten-->
@@ -71,9 +71,15 @@
     h1 {
         text-align: center;
         margin-top: 50px;
+        margin-bottom: 40px;
     }
+
     .text-p {
         text-align: justify;
         margin-top: 50px;
+    }
+
+    summary {
+        margin-top: 40px;
     }
 </style>

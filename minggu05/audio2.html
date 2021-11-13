@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>HTML Layout</title>
+    <title>HTML Audio 2</title>
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <meta charset="utf-8">
     <meta name="viewpoint" content="width=device-width, initial-scale=1">
@@ -15,11 +15,11 @@
         <ul>
             <li><a class="udinus" href="https://dinus.ac.id/"><img class="logo" src="assets/image/udinus.jpg"></a>
             </li>
-            <li><a class="active text beranda" href="layout.html">HTML Layout</a></li>
+            <li><a class="text beranda" href="layout.html">HTML Layout</a></li>
             <li><a class="text" href="summary.html">Summary HTML</a></li>
             <li><a class="text" href="time.html">HTML Time</a></li>
             <li><a class="text" href="audio.html">HTML Audio</a></li>
-            <li><a class="text" href="audio2.html">HTML Audio2</a></li>
+            <li><a class="active text" href="audio2.html">HTML Audio2</a></li>
             <li><a class="text" href="video.html">HTML Video</a></li>
             <li><a class="text" href="video-gif.html">HTML Video Gif</a></li>
             <li><a class="text" href="video-subtitle.html">HTML Video Subtitle</a></li>
@@ -32,28 +32,18 @@
     <!--Start Konten-->
 
     <div class="container">
-        <h1>Tutorial Semantik Element untuk pemula</h1>
-        <p class="text-p">Di awal-awal hadirnya HTML dulu, elemen semantik belum ada.
+        <article>
+            <h1>Audio 2 di HTML</h1>
 
-            Orang-orang membuat layout dengan menggunakan tag yang salah.
-            
-            Ada yang membuatnya dengan tag tabel dan ada juga dengan tag div.
-            
-            Ini sebenarnya tidak sepenuhnya salah, karena membuat layout dengan kedua tag itu benar-benar bisa.
-            
-            Tapi, ini bukanlah cara yang baik dan akan membuat kode HTML kita sulit terbaca.
-            
-            Karena itu.. hadirlah elemen semantik sebagai solusi.
-            
-            Elemen semantik mulai ditambahkan pada HTML 5.
-            
-            Elemen semantik adalah elemen-elemen yang menyatakan makna atau tujuan dari elemen itu sendiri. 1
-            
-            Misalnya tag footer, tag ini digunakan untuk membuat elemen footer atau bagian kaki dari web.
-            
-            Jangan gunakan tag ini di bagian paling atas, karena maknanya sudah jelas untuk footer.
-            
-            Jadi tidak akan ada lagi yang namanya penyalahgunaan tag. Karena setiap tag sudah punya tujuan masing-masing.</p>
+            <h4>Ditulis pada <time datetime="2021-14-11">14 November 2021</time></h4>
+
+            <div class="media-music">
+                <h3>Enjoy Music - Imagine Dragon Believer</h3>
+                <audio controls muted loop>
+                    <source src="assets/music/imagine-dragons-believer.mp3" type="audio/mp3">
+                </audio>
+            </div>
+        </article>
     </div>
 
     <!--End Konten-->
@@ -71,9 +61,19 @@
     h1 {
         text-align: center;
         margin-top: 50px;
+        margin-bottom: 40px;
     }
+
     .text-p {
         text-align: justify;
-        margin-top: 50px;
+        margin-top: 20px;
+    }
+
+    summary {
+        margin-top: 40px;
+    }
+
+    .media-music{
+        margin-top: 30px;
     }
 </style>
