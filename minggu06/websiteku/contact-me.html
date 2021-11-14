@@ -25,13 +25,14 @@
         <!-- Start Konten -->
         <div class="main-container">
             <!-- Form -->
-
+            <article>
+                <h2 class="margin-top-bottom">Contact Me...</h2>
+                <p class="margin-top-bottom">Hi, jika anda ingin menghubungi saya, anda dapat mengisi form isian dibawah
+                    ini <br><br> Terimakasih
+                </p>
+            </article>
             <div class="divform">
-                <center>
-                    <h2>Kontak Saya</h2>
-                </center>
-
-                <form action="kontak.html">
+                <form action="">
                     <label for="fnama">Nama</label>
                     <input type="text" id="fnama" name="Nama" placeholder="Nama Anda ...">
 
@@ -47,15 +48,14 @@
                     <label for="fpesan">Pesan</label>
                     <textarea id="fpesan" name="Pesan" placeholder="Pesan..." style="height:200px"></textarea>
 
-
+                    <br>
+                    <br>
                     <input type="submit" value="Submit">
                 </form>
             </div>
-
-            <br>
-            <br>
         </div>
         <!-- End Konten -->
+        <br>
 
         <!-- Start Footer -->
         <div class="footer">
@@ -108,12 +108,14 @@
     }
 
     input[type=submit]:hover {
-        background-color: #45a049;
+        background-color: #032366;
     }
 
     .divform {
         border-radius: 5px;
         padding: 20px;
+        float: left;
+        text-align: left;
     }
 
     .divform .tab {
