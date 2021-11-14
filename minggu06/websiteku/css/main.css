@@ -1,0 +1,118 @@
+/* Main */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #f0f0ef;
+    background-image: url(../assets/image/background-main.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+/* Navigasi */
+nav {
+    height: 43px;
+    background-color: antiquewhite;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    top: 0;
+    width: 100%;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: rgb(0, 255, 200);
+    color: #313131;
+}
+
+.active {
+    background-color: rgb(0, 98, 255);
+}
+
+/* Container */
+.container {
+    width: 55%;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(248, 247, 247, 0.877);
+}
+
+.main-container {
+    padding: 30px 50px;
+    align-items: center;
+    text-align: center;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 55%;
+}
+
+.footer .copy {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 12px;
+}
+
+/* Konten */
+.margin-top-bottom{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 60%;
+}
+
+.table td, .table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table tr:hover {
+    background-color: #ddd;
+}
+
+.table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(0, 98, 255);
+    color: white;
+    text-align: center;
+}
